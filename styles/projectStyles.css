@@ -1,0 +1,91 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 232, 189);
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background: url('../images/headerImage.jpg') no-repeat center center/cover;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+}
+
+.header-text-box {
+    background-color: rgb(255, 232, 189, .8); 
+    padding: 20px; 
+    border-radius: 10px; 
+    display: inline-block;
+    text-align: center; 
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #333; 
+    background-color: rgb(255, 232, 189); 
+    border-radius: 5px; 
+}
+
+
+/* Section styles */
+section {
+    padding: 2em;
+    margin: 2em 0;
+}
+
+/* Gallery styles */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.image-gallery img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* Embedded content styles */
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    color: white;
+}
+
+/* adjust spacing between section s*/
+#intro {
+    margin-bottom: 0; 
+}
+
+#top-canyons {
+    margin-top: -20px; 
+}
+
+
